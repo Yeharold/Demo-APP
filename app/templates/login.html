@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="/login" method="POST" role="form">
+            <legend style="text-align: center;">欢迎登录APP</legend>
+            <div class="form-group">
+                <label for="">用户名</label>
+                <input type="text" class="form-control" name='user' placeholder="username">
+            </div>
+            <div class="form-group">
+                <label for="">密码</label>
+                <input type="password" class="form-control" name='pwd1' placeholder="password">
+            </div>
+            <button type="submit" class="btn btn-primary">登录</button>
+        </form>
+    </div>
+</body>
+
+</html>
